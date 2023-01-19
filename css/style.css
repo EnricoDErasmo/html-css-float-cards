@@ -21,3 +21,14 @@ header h1{
 main .paragraph{
     padding-bottom: 30px;
 }
+
+main .card{
+    height:90px; 
+    width: 300px;
+}
+
+main .card.marco{
+    background-image:url(../img/marco.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
