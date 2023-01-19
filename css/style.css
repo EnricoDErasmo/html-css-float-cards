@@ -18,11 +18,17 @@ header h1{
     color: #e53170;
 }
 
-main .paragraph{
+.container:after{
+    content:"";
+    display: block;
+    clear: both;  
+}
+
+.paragraph{
     padding-bottom: 40px;
 }
 
-main .card{
+.card{
     height:90px; 
     width: 300px;
 
@@ -39,23 +45,12 @@ main .card{
     color: white;
 }
 
-main .container:after{
-    content:"";
-    display: block;
-    clear: both;  
-}
-
-main .card .link{
+.card .link{
     color: #279ee9;
     text-decoration: none;  
 }
 
-main .card.marco{
-    background-image:url(../img/marco.png);
-      
-}
-
-main .card .name{
+.card .name{
     font-size: 1.3em;
     font-weight: bold;
 }
@@ -63,5 +58,30 @@ main .card .name{
 .card .name, .job, .link{
     padding-bottom: 4px;
 }
+
+.card.marco{
+    background-image:url(../img/marco.png);     
+}
+
+.card.laura{
+    background-image:url(../img/laura.png);     
+}
+
+.card.giorgio{
+    background-image:url(../img/giorgio.png);     
+}
+
+.card.marta{
+    background-image:url(../img/marta.png);     
+}
+
+.card.roberto{
+    background-image:url(../img/roberto.png);     
+}
+
+.card.daniela{
+    background-image:url(../img/daniela.png);     
+}
+
 
 
