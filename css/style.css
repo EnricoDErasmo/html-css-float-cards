@@ -14,21 +14,45 @@ body{
 }
 
 header h1{
-    padding: 30px 0px;
+    padding: 40px 0px;
     color: #e53170;
 }
 
 main .paragraph{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 main .card{
     height:90px; 
     width: 300px;
+
+    padding-top: 10px;
+    padding-left:100px;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+
+    text-align: left;
+    color: white;
+}
+
+main .card .link{
+    color: #279ee9;
+    text-decoration: none;  
 }
 
 main .card.marco{
-    background-image:url(../img/marco.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image:url(../img/marco.png);  
 }
+
+main .card .name{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.card .name, .job, .link{
+    padding-bottom: 4px;
+}
+
+
