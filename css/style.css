@@ -26,6 +26,8 @@ main .card{
     height:90px; 
     width: 300px;
 
+    float: left;
+
     padding-top: 10px;
     padding-left:100px;
     
@@ -37,13 +39,20 @@ main .card{
     color: white;
 }
 
+main .container:after{
+    content:"";
+    display: block;
+    clear: both;  
+}
+
 main .card .link{
     color: #279ee9;
     text-decoration: none;  
 }
 
 main .card.marco{
-    background-image:url(../img/marco.png);  
+    background-image:url(../img/marco.png);
+      
 }
 
 main .card .name{
