@@ -17,3 +17,7 @@ header h1{
     padding: 30px 0px;
     color: #e53170;
 }
+
+main .paragraph{
+    padding-bottom: 30px;
+}
